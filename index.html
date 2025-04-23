@@ -1,18 +1,57 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benim Portföyüm</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projelerim</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Merhaba, Ben [Adınız]</h1>
-    </header>
-    <section>
-        <p>Kısa bir özgeçmiş veya projelerinizin tanıtımı.</p>
-    </section>
-    <script src="script.js"></script>
+  <header>
+    <h1>Anıl Kaya | Portfolio Projects</h1>
+    <p>"You are what you do, not what you say you'll do" - Carl Jung</p>
+  </header>
+
+  <main class="projects-grid">
+    <!-- Project cards -->
+    <div class="card" onclick="goToProject('proje1.html')">
+      <img src="thumbnails/proje1.png" alt="Project 1" class="thumbnail">
+      <h2>Project: License Plate Detection Program</h2>
+      <p>Turkish vehicle license plates were detected using the YOLO object-detection model.</p>
+    </div>
+    
+    <div class="card" onclick="goToProject('proje2.html')">
+      <img src="thumbnails/proje2.png" alt="Project 2" class="thumbnail">
+      <h2>Project: SHEIN Web Scraping & Dashboard</h2>
+      <p>A small project demonstrating web data gathering and data storytelling & visualization skills.</p>
+    </div>
+  
+    <div class="card" onclick="goToProject('proje3.html')">
+      <img src="thumbnails/proje3.png" alt="Project 3" class="thumbnail">
+      <h2>Project: University Selection Wizard Website</h2>
+      <p>Hub-Uni goes beyond traditional academic selection tools by considering factors like transportation, accommodation, and social aspects.</p>
+    </div>
+  
+    <div class="card" onclick="goToProject('proje4.html')">
+      <img src="thumbnails/proje4.png" alt="Project 4" class="thumbnail">
+      <h2>Project: NBA All-Stars Prediction Analysis</h2>
+      <p>An analytics project that predicts NBA All-Stars for the 2023–2024 season using R programming language.</p>
+    </div>
+  
+    <div class="card" onclick="goToProject('proje5.html')">
+      <img src="thumbnails/proje5.png" alt="Project 5" class="thumbnail">
+      <h2>Project: HERA - Instrument Sales Website</h2>
+      <p>A simple front-end project showcasing a musical instrument e-commerce website.</p>
+    </div>
+  
+    <div class="card" onclick="goToProject('proje6.html')">
+      <img src="thumbnails/proje6.png" alt="Project 6" class="thumbnail">
+      <h2>Project: Private High School Management Website</h2>
+      <p>A front-end project demonstrating a private school management system interface.</p>
+    </div>
+  </main>
+  
+
+  <script src="script.js"></script>
 </body>
 </html>
